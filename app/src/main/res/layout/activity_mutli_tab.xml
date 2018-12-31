@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MutliTabActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="0"
+                android:textSize="25sp"/>
+
+            <FrameLayout
+                android:id="@+id/f0"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/web_view_height" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="1"
+                android:textSize="25sp"/>
+
+            <FrameLayout
+                android:id="@+id/f1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/web_view_height" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="2"
+                android:textSize="25sp"/>
+
+            <FrameLayout
+                android:id="@+id/f2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/web_view_height" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="3"
+                android:textSize="25sp"/>
+
+            <FrameLayout
+                android:id="@+id/f3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/web_view_height" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="4"
+                android:textSize="25sp"/>
+
+            <FrameLayout
+                android:id="@+id/f4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/web_view_height" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="5"
+                android:textSize="25sp"/>
+
+            <FrameLayout
+                android:id="@+id/f5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/web_view_height" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="6"
+                android:textSize="25sp"/>
+
+            <FrameLayout
+                android:id="@+id/f6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/web_view_height" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="7"
+                android:textSize="25sp"/>
+
+            <FrameLayout
+                android:id="@+id/f7"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/web_view_height" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="8"
+                android:textSize="25sp"/>
+
+            <FrameLayout
+                android:id="@+id/f8"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/web_view_height" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="9"
+                android:textSize="25sp"/>
+
+            <FrameLayout
+                android:id="@+id/f9"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/web_view_height" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="10"
+                android:textSize="25sp"/>
+
+            <FrameLayout
+                android:id="@+id/f10"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/web_view_height" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
