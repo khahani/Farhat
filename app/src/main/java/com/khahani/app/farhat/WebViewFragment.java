@@ -19,7 +19,7 @@ import android.widget.Button;
 
 public class WebViewFragment extends Fragment {
 
-    public static final String SITE_URL = "https://ndip.ir/asadi"; //asadi
+    public static final String SITE_URL = "https://ndip.ir/farhat"; //asadi
 
     private static final String ARG_PARAM_NAME = "name";
     private static final String ARG_PARAM_LASTNAME = "lastName";

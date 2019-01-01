@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonListActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/p0_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="کد ملی" />
+
+                    <EditText
+                        android:id="@+id/p0_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="نام" />
+
+                    <EditText
+                        android:id="@+id/p0_lastname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="نام خانوادگی" />
+
+                    <EditText
+                        android:id="@+id/p0_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="موبایل" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/p1_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="کد ملی" />
+
+                    <EditText
+                        android:id="@+id/p1_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="نام" />
+
+                    <EditText
+                        android:id="@+id/p1_lastname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="نام خانوادگی" />
+
+                    <EditText
+                        android:id="@+id/p1_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="موبایل" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/p2_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="کد ملی" />
+
+                    <EditText
+                        android:id="@+id/p2_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="نام" />
+
+                    <EditText
+                        android:id="@+id/p2_lastname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="نام خانوادگی" />
+
+                    <EditText
+                        android:id="@+id/p2_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="موبایل" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/p3_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="کد ملی" />
+
+                    <EditText
+                        android:id="@+id/p3_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="نام" />
+
+                    <EditText
+                        android:id="@+id/p3_lastname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="نام خانوادگی" />
+
+                    <EditText
+                        android:id="@+id/p3_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="موبایل" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/p4_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="کد ملی" />
+
+                    <EditText
+                        android:id="@+id/p4_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="نام" />
+
+                    <EditText
+                        android:id="@+id/p4_lastname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="نام خانوادگی" />
+
+                    <EditText
+                        android:id="@+id/p4_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="موبایل" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <Button
+                android:id="@+id/buttonNobat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نوبت بگیر" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

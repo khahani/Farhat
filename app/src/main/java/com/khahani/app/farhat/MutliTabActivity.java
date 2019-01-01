@@ -13,11 +13,13 @@ public class MutliTabActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mutli_tab);
 
-        int count = 10;
-        ArrayList<Person> persons = new ArrayList<>();
-        for (int i = 0; i < count; i++) {
-            persons.add(new Person("محمممم", "خوووو", "123"+i+"59989" + i, "1111"+i+"11911" + i));
-        }
+        int count;
+        ArrayList<Person> persons = PersonListActivity.sAllPerson;
+        count = persons.size();
+
+//        for (int i = 0; i < count; i++) {
+//            persons.add(new Person("محمممم", "خوووو", "123"+i+"59989" + i, "1111"+i+"11911" + i));
+//        }
 
         for (int i = 0; i < count; i++) {
             WebViewFragment fragment = WebViewFragment.newInstance(persons.get(i));
